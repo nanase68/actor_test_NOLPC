@@ -9,5 +9,6 @@ void check_queue() {
 int main() {
 	gqueue.checkQueue();
 	while (1) {
+		break;
 	}
 }
