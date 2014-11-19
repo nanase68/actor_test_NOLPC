@@ -1,5 +1,8 @@
 #include "GlobalQueue.h"
 
+#include <iostream>
+using namespace std;
+
 GlobalQueue gqueue;
 
 void check_queue() {
@@ -8,6 +11,7 @@ void check_queue() {
 
 int main() {
 	gqueue.checkQueue();
+	cout << "test" << endl;
 	while (1) {
 		break;
 	}
